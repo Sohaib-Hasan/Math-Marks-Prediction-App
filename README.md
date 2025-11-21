@@ -1,16 +1,10 @@
-Absolutely — here is your **fully polished, professional, GitHub-ready README.md**.
-Just **copy–paste** this into your repository.
-It follows **proper Markdown structure**, technical depth, clean formatting, headings, tables, and industry-standard documentation style.
-
----
-
-# 📘 **Math Marks Prediction App**
+# **Math Marks Prediction App**
 
 ### *An End-to-End Machine Learning Pipeline with Deployment on HuggingFace Spaces*
 
 ---
 
-## 🧩 **Overview**
+## **Overview**
 
 This repository contains a complete **Machine Learning project** designed to predict a student’s **Math Score** using demographic attributes and academic performance indicators.
 The project demonstrates:
@@ -25,7 +19,7 @@ This project is ideal for demonstrating **ML engineering**, **feature engineerin
 
 ---
 
-## 📊 **Dataset Description**
+## **Dataset Description**
 
 The dataset consists of **5 categorical input features**, **2 numerical academic input features**, and **1 numerical target variable**.
 
@@ -46,7 +40,7 @@ The dataset consists of **5 categorical input features**, **2 numerical academic
 | `reading score` | Continuous | Performance in reading (0–100) |
 | `writing score` | Continuous | Performance in writing (0–100) |
 
-### 🎯 **Target Variable**
+### **Target Variable**
 
 * `math score` (0–100)
 
@@ -86,7 +80,7 @@ model.pkl
 
 ---
 
-## 📈 **Model Evaluation Summary**
+## **Model Evaluation Summary**
 
 | Model             | Train R² | Test R² | Notes                    |
 | ----------------- | -------- | ------- | ------------------------ |
@@ -107,7 +101,7 @@ model.pkl
 
 ---
 
-## 🖥 **Streamlit Application**
+## **Streamlit Application**
 
 The web app allows users to:
 
@@ -116,54 +110,22 @@ The web app allows users to:
 * Predict math score instantly
 * View model inference in real time
 
-Start the app locally using:
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 📦 **Installation**
-
-### **Clone the repository**
-
-```bash
-git clone https://github.com/<your-username>/Math-Marks-Prediction-App.git
-cd Math-Marks-Prediction-App
-```
-
-### **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-### **Run the app**
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 🗂 **Project Structure**
+## **Project Structure**
 
 ```
 Math-Marks-Prediction-App/
 │── app.py                 # Streamlit web application
 │── model.pkl              # Final trained model
 │── requirements.txt       # Dependencies for deployment
-│── runtime.txt            # Python version for HuggingFace
 │── README.md              # Documentation
 │── notebook.ipynb         # Model training workflow (optional)
-│── data.csv               # Dataset (optional if license permits)
-│── screenshots/           # UI images (optional)
+│── data.csv               # Dataset
+│── screenshots/           # UI image
 ```
 
 ---
 
-## 🚀 **Deployment on HuggingFace Spaces**
+## **Deployment on HuggingFace Spaces**
 
 1. Create a new Space → Select **Streamlit**
 2. Upload:
@@ -178,7 +140,7 @@ Your app is now publicly hosted.
 
 ---
 
-## 🔧 **Tech Stack**
+## **Tech Stack**
 
 * **Python**
 * **Pandas**
@@ -190,7 +152,7 @@ Your app is now publicly hosted.
 
 ---
 
-## 🧭 **Future Improvements**
+## **Future Improvements**
 
 * Hyperparameter tuning with Optuna
 * SHAP/LIME model explainability
@@ -200,18 +162,10 @@ Your app is now publicly hosted.
 
 ---
 
-## 👤 **Author**
+## **Author**
 
 **Sohaib Hasan**
-Machine Learning Practitioner | Data Scientist
-LinkedIn: *Add Profile Link*
+Machine Learning Practitioner | Data Scientist | Mathematics Lecturer
+LinkedIn: www.linkedin.com/in/sohaibhassan05
 
 ---
-
-If you want, I can also create:
-✔ A **GitHub project banner image**
-✔ A **short README version**
-✔ “How it works” diagram (Mermaid format)
-✔ SEO-optimized GitHub tags
-
-Just tell me!
